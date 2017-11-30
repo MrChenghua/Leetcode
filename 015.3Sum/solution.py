@@ -15,9 +15,9 @@ class Solution(object):
                     while l<r and num[r]==num[r-1]:
                         r-=1
                     l+=1;r-=1
-                if s>0:
-                    l+=1
                 if s<0:
+                    l+=1
+                if s>0:
                     r-=1
         return res
                 
